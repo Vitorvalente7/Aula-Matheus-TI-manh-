@@ -1,4 +1,4 @@
-#Calculadora área e perimetro de um retangulo
+# Calculadora área e perimetro de um retangulo
 largura=float(input("Digite a largura: "))
 altura=float(input("Digite a altura: "))
 area= largura * altura

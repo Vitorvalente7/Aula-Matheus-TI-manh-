@@ -1,4 +1,4 @@
-#verificador de idade
+# Verificador de idade
 Idade=int(input("Digite sua idade: "))
 if Idade <= 13:
     print("Você é criança !")
@@ -7,4 +7,4 @@ elif Idade <= 17:
 elif  Idade <= 59:
     print("Você é adulto !")
 else: 
- print("Você é idoso !")
+    print("Você é idoso !")

@@ -6,10 +6,10 @@ if resultado ==0:
 else:
     print("Este número é positivo e ímpar !",format(número))
 if número % 3 == 0 :
-    print("Este número é multiplo de  três !")
+    print("Este número é múltiplo de  três !")
 elif número ==0:
     print("Este número é zero !")
 elif número < 0 and número % 2 == 1 :
     print("Este número é negativo e ímpar !")
 else:
-    print("O número não é multiplo de três ! ")
+    print("O número não é múltiplo de três ! ")

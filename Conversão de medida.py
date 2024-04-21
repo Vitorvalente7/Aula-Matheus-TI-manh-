@@ -10,18 +10,18 @@ if polegadas:
 pés=float(input("Digite um número: "))
 pé= (pés * 30.48)
 if pés: 
- print("O valor em centimetros é: ",format(pé))
-centimetro=float(input("Digite um número: "))
-c= (centimetro / 100)
-if centimetro:
- print("O Valor em centimetros é: ",format(c))
+ print("O valor em centímetros é: ",format(pé))
+centímetro=float(input("Digite um número: "))
+c= (centímetro / 100)
+if centímetro:
+ print("O Valor em centímetros é: ",format(c))
 metros=float(input("Digite um número: "))
 m= (metros / 100)
 if metros:
  print("O valor em metros é:",format(m))
-quilometros=float(input("Digite um número: "))
-q= (quilometros /  1000)
-if quilometros:
- print("O valor em quilometros é: ",format(q))
+quilômetro=float(input("Digite um número: "))
+q= quilômetro /  1000
+if quilômetro :
+ print("O valor em quilômetro é: ",format(q))
 else:
  print("Erro !")

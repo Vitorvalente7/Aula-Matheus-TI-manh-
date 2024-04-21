@@ -1,12 +1,12 @@
 # Verificação de triangulo e tipo de triangulo !!
-area=float(input("Digite a area do triangulo: "))
+área=float(input("Digite a área do triangulo: "))
 base=float(input("Digite a base do triangulo: "))
 c=float(input("Digite a altura do triangulo: "))
-if (area < base + c) and (base < area + c) and (c < area + base) :
+if (área < base + c) and (base < área + c) and (c < área + base) :
     print(" É possivel formar um triangulo !")
-    if  (area == base) and (c == area) :
+    if  (área == base) and (c == área) :
       print("Equilatero")
-    elif area != base != c != area :
+    elif área != base != c != área :
       print(" Escaleno ! ")
     else:
       print(" Iósceles ! ")
